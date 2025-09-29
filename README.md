@@ -1,16 +1,40 @@
-# flutter_widget_demos
-
-show how to use flutter widgets
+# FlutterWidgetsDemo
+show how to use flutter widgets.
 
 ## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* DefaultTextStyle、RichText、Text
+* SelectableText
+* TextFiled
+* Form
+* SegmentedButton
+* Image、Icon、IconButton
+* FadeInImage
+* ClipRRect、ClipXXX...、
+* FittedBox
+* ElevatedButton、FilledButton、OutlinedButton、TextButton、 FloatingActionButton
+* Container、SizedBox
+* Row、Column、Stack
+* Center 、Align
+* Positioned
+* Expanded
+* Chip
+* Checkbox、Switch、 Radio、ListTile
+* CheckboxListTile、SwitchListTile
+* Opacity、BackdropFilter 、Transform
+* ListView、GridView
+* SliverList&SliverGrid
+* LayoutBuilder
+* ListView.builder、GridView.builder、Builder、LayoutBuilder、FutureBuilder
+* PageView
+* Table、TableRow
+* SliverAppBar
+* Hero
+* AbsorbPointer
+* Scaffold、AppBar
+* DropDownMenu、Slider
+* DatePickerDialog、TimePickerDialog
+* Dismissible
+* StreamBuilder
+* CustomPaint
+* ToolTips
+* AnimatedBuilder
