@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_widgets_demo/base/BasePage.dart';
+import 'package:flutter_widgets_demo/demo/Layout.dart';
 import 'package:flutter_widgets_demo/demo/Text.dart' show TextDemoPage;
 
 void main() {
@@ -8,6 +9,7 @@ void main() {
 
 var pageRouters = <String, WidgetBuilder>{
   'TextDemo': (context) => const TextDemoPage(title: "TextDemo"),
+  'LayoutDemo': (context) => const LayoutDemoPage(title: "LayoutDemo"),
 };
 
 class MyApp extends StatelessWidget {
@@ -41,7 +43,7 @@ class MyHomePage extends BasePage {
               onPressed: () {
                 Navigator.of(context).pushNamed(it.key);
               },
-              child: Text(it.key, style: TextStyle(color: Colors.white),),
+              child: Text(it.key, style: TextStyle(color: Colors.white)),
             ),
           );
         }).toList(),
