@@ -7,7 +7,7 @@ void main() {
 }
 
 var pageRouters = <String, WidgetBuilder>{
-  'TextDemo': (context) => const TextDemoPage(title: ""),
+  'TextDemo': (context) => const TextDemoPage(title: "TextDemo"),
 };
 
 class MyApp extends StatelessWidget {
