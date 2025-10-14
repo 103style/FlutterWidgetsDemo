@@ -26,6 +26,9 @@ class TextDemoPage extends BasePage {
         style(_createLinkText(context)),
         // 2.3 Insert Emoji or Widget
         style(_createEmojiOrWidgetText(context)),
+
+        // 3.SelectableText
+        style(_buildSelectableText(context)),
       ],
     );
   }
@@ -150,6 +153,44 @@ class TextDemoPage extends BasePage {
           WidgetSpan(child: Icon(Icons.star, color: Colors.amber, size: 20)),
         ],
       ),
+    );
+  }
+
+  Widget _buildSelectableText(BuildContext context) {
+    return Column(
+      children: [
+        const SelectableText(
+          'selectable text test, long click me, then select me',
+          textAlign: TextAlign.center,
+          style: TextStyle(fontWeight: FontWeight.bold),
+        ),
+        SelectableText.rich(
+          TextSpan(
+            text: 'Hello', // default text style
+            children: <TextSpan>[
+              const TextSpan(
+                text: ' beautiful ',
+                style: TextStyle(fontStyle: FontStyle.italic),
+              ),
+              const TextSpan(
+                text: 'world',
+                style: TextStyle(fontWeight: FontWeight.bold),
+              ),
+              TextSpan(
+                text: ' link',
+                style: const TextStyle(
+                  color: Colors.blue,
+                  decoration: TextDecoration.underline,
+                ),
+                recognizer: TapGestureRecognizer()
+                  ..onTap = () {
+                    print('click link');
+                  },
+              ),
+            ],
+          ),
+        ),
+      ],
     );
   }
 

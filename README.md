@@ -2,8 +2,7 @@
 show how to use flutter widgets.
 
 ## Getting Started
-* DefaultTextStyle、RichText、Text
-* SelectableText
+* [DefaultTextStyle、RichText、Text、SelectableText](https://github.com/103style/FlutterWidgetsDemo/blob/master/lib/demo/Text.dart)
 * TextFiled
 * Form
 * SegmentedButton
