@@ -3,12 +3,15 @@ import 'package:flutter_widgets_demo/base/BasePage.dart';
 import 'package:flutter_widgets_demo/demo/Layout.dart';
 import 'package:flutter_widgets_demo/demo/Text.dart' show TextDemoPage;
 
+import 'demo/TextFiledDemo.dart' show TextFiledDemo;
+
 void main() {
   runApp(const MyApp());
 }
 
 var pageRouters = <String, WidgetBuilder>{
   'TextDemo': (context) => const TextDemoPage(title: "TextDemo"),
+  'TextFiledDemo': (context) => const TextFiledDemo(title: "TextFiledDemo"),
   'LayoutDemo': (context) => const LayoutDemoPage(title: "LayoutDemo"),
 };
 
