@@ -1,8 +1,14 @@
 # FlutterWidgetsDemo
 show how to use flutter widgets.
 
-## Getting Started
+## Layout
 * [Row、Column、Stack](https://github.com/103style/FlutterWidgetsDemo/blob/master/lib/demo/Layout.dart)
+* [Container、SizedBox](https://github.com/103style/FlutterWidgetsDemo/blob/master/lib/demo/ContainerAndSizedBoxDemo.dart)
+* Center、Align
+* Positioned
+* Expanded
+
+## Widgets
 * [DefaultTextStyle、RichText、Text、SelectableText](https://github.com/103style/FlutterWidgetsDemo/blob/master/lib/demo/Text.dart)
 * [Image、Icon、IconButton、Ink、FadeInImage](https://github.com/103style/FlutterWidgetsDemo/blob/master/lib/demo/ImageDemo.dart)
   ```
@@ -15,10 +21,6 @@ show how to use flutter widgets.
   ```
 * [TextFiled](https://github.com/103style/FlutterWidgetsDemo/blob/master/lib/demo/TextFiledDemo.dart)
 * ElevatedButton、FilledButton、OutlinedButton、TextButton、 FloatingActionButton
-* Container、SizedBox
-* Center 、Align
-* Positioned
-* Expanded
 
 * ListView、GridView
 * SliverList&SliverGrid

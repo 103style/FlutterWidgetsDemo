@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_widgets_demo/base/BasePage.dart';
 import 'package:flutter_widgets_demo/demo/Layout.dart';
-import 'package:flutter_widgets_demo/demo/Text.dart' show TextDemoPage;
+import 'package:flutter_widgets_demo/demo/Text.dart';
 
-import 'demo/ImageDemo.dart' show ImageDemo;
-import 'demo/TextFiledDemo.dart' show TextFiledDemo;
+import 'demo/ContainerAndSizedBoxDemo.dart';
+import 'demo/ImageDemo.dart';
+import 'demo/TextFiledDemo.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,6 +16,8 @@ var pageRouters = <String, WidgetBuilder>{
   'ImageDemo': (context) => const ImageDemo(title: "ImageDemo"),
   'TextFiledDemo': (context) => const TextFiledDemo(title: "TextFiledDemo"),
   'LayoutDemo': (context) => const LayoutDemoPage(title: "LayoutDemo"),
+  'ContainerAndSizedBoxDemo': (context) =>
+      const ContainerAndSizedBoxDemo(title: "ContainerAndSizedBoxDemo"),
 };
 
 class MyApp extends StatelessWidget {
@@ -42,7 +45,7 @@ class MyHomePage extends BasePage {
       child: ListView(
         children: pageRouters.entries.map((it) {
           return Container(
-            margin: EdgeInsetsDirectional.all(8),
+            margin: EdgeInsetsDirectional.all(4),
             color: Colors.black,
             child: TextButton(
               onPressed: () {
