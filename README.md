@@ -3,10 +3,18 @@ show how to use flutter widgets.
 
 ## Getting Started
 * [DefaultTextStyle、RichText、Text、SelectableText](https://github.com/103style/FlutterWidgetsDemo/blob/master/lib/demo/Text.dart)
+* [Image、Icon、IconButton、Ink](https://github.com/103style/FlutterWidgetsDemo/blob/master/lib/demo/ImageDemo.dart)
+  ```
+  # 本地资源配置 pubspec.yaml  
+  flutter:
+    #  assets 配置
+    #  1. 目录结尾一定要有 /； 2.YAML 缩进必须正确（2 个空格，不可用 tab）。
+    assets:
+      - assets/images/
+  ```
 * [TextFiled](https://github.com/103style/FlutterWidgetsDemo/blob/master/lib/demo/TextFiledDemo.dart)
 * Form
 * SegmentedButton
-* Image、Icon、IconButton
 * FadeInImage
 * ClipRRect、ClipXXX...、
 * FittedBox

@@ -20,3 +20,10 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  #  assets 配置
+  #  目录结尾一定要有 /；
+  #  冒号后面要有一个空格；
+  #  YAML 缩进必须正确（2 个空格，不可用 tab）。
+  assets:
+    - assets/images/
