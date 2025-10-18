@@ -22,7 +22,7 @@ class ImageDemo extends BasePage {
         // icon
         _buildIcon(),
 
-        Text("Image、Image.asset、Image.network、NetworkImage"),
+        Text("Image、Image.asset、Image.network、NetworkImage:"),
         // 本地图片，
         _buildImageContainer(Image.asset("assets/images/pic1.jpg")),
 
@@ -46,6 +46,36 @@ class ImageDemo extends BasePage {
             },
           ),
         ),
+
+        Text("FadeInImage:"),
+        // FadeInImage
+        _buildImageContainer(
+          FadeInImage.assetNetwork(
+            placeholder: "assets/images/loading.jpeg",
+            image: pic2,
+          ),
+        ),
+        _buildImageContainer(
+          FadeInImage.assetNetwork(
+            placeholder: "assets/images/loading.jpeg",
+            placeholderColor: Colors.pinkAccent,
+            image: pic2,
+          ),
+        ),
+        _buildImageContainer(
+          FadeInImage.assetNetwork(
+            placeholder: "assets/images/loading.jpeg",
+            image: pic2,
+            // 淡入动画的持续时间
+            fadeInDuration: const Duration(seconds: 1),
+            // 图像淡入动画的曲线
+            fadeInCurve: Curves.bounceIn,
+            // 淡出动画的持续时间
+            fadeOutDuration: const Duration(seconds: 1),
+            // 图像淡出动画的曲线
+            fadeOutCurve: Curves.easeInOut,
+          ),
+        ),
       ],
     );
   }
@@ -62,7 +92,7 @@ class ImageDemo extends BasePage {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text("Icon、IconButton、Ink"),
+        Text("Icon、IconButton、Ink:"),
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [

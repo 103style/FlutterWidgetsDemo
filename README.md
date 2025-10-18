@@ -4,7 +4,7 @@ show how to use flutter widgets.
 ## Getting Started
 * [Row、Column、Stack](https://github.com/103style/FlutterWidgetsDemo/blob/master/lib/demo/Layout.dart)
 * [DefaultTextStyle、RichText、Text、SelectableText](https://github.com/103style/FlutterWidgetsDemo/blob/master/lib/demo/Text.dart)
-* [Image、Icon、IconButton、Ink](https://github.com/103style/FlutterWidgetsDemo/blob/master/lib/demo/ImageDemo.dart)
+* [Image、Icon、IconButton、Ink、FadeInImage](https://github.com/103style/FlutterWidgetsDemo/blob/master/lib/demo/ImageDemo.dart)
   ```
   # 本地资源配置 pubspec.yaml  
   flutter:
@@ -14,24 +14,27 @@ show how to use flutter widgets.
       - assets/images/
   ```
 * [TextFiled](https://github.com/103style/FlutterWidgetsDemo/blob/master/lib/demo/TextFiledDemo.dart)
-* Form
-* SegmentedButton
-* FadeInImage
-* ClipRRect、ClipXXX...、
-* FittedBox
 * ElevatedButton、FilledButton、OutlinedButton、TextButton、 FloatingActionButton
 * Container、SizedBox
 * Center 、Align
 * Positioned
 * Expanded
-* Chip
-* Checkbox、Switch、 Radio、ListTile
-* CheckboxListTile、SwitchListTile
-* Opacity、BackdropFilter 、Transform
+
 * ListView、GridView
 * SliverList&SliverGrid
 * LayoutBuilder
 * ListView.builder、GridView.builder、Builder、LayoutBuilder、FutureBuilder
+
+* Form
+* SegmentedButton
+* ClipRRect、ClipXXX...、
+* FittedBox
+* Chip
+* Checkbox、Switch、 Radio、ListTile
+* CheckboxListTile、SwitchListTile
+
+* Opacity、BackdropFilter 、Transform
+
 * PageView
 * Table、TableRow
 * SliverAppBar
