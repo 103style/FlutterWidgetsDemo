@@ -2,6 +2,7 @@
 show how to use flutter widgets.
 
 ## Getting Started
+* [Row、Column、Stack](https://github.com/103style/FlutterWidgetsDemo/blob/master/lib/demo/Layout.dart)
 * [DefaultTextStyle、RichText、Text、SelectableText](https://github.com/103style/FlutterWidgetsDemo/blob/master/lib/demo/Text.dart)
 * [Image、Icon、IconButton、Ink](https://github.com/103style/FlutterWidgetsDemo/blob/master/lib/demo/ImageDemo.dart)
   ```
@@ -20,7 +21,6 @@ show how to use flutter widgets.
 * FittedBox
 * ElevatedButton、FilledButton、OutlinedButton、TextButton、 FloatingActionButton
 * Container、SizedBox
-* Row、Column、Stack
 * Center 、Align
 * Positioned
 * Expanded
