@@ -58,7 +58,10 @@ class ImageDemo extends BasePage {
         _buildImageContainer(
           FadeInImage.assetNetwork(
             placeholder: "assets/images/loading.jpeg",
+            // 占位符颜色
             placeholderColor: Colors.pinkAccent,
+            // 占位符颜色混合模式
+            placeholderColorBlendMode: BlendMode.darken,
             image: pic2,
           ),
         ),
