@@ -3,6 +3,7 @@ import 'package:flutter_widgets_demo/base/BasePage.dart';
 import 'package:flutter_widgets_demo/demo/Layout.dart';
 import 'package:flutter_widgets_demo/demo/Text.dart';
 
+import 'demo/CenterAlignPositionedExpandedDemo.dart';
 import 'demo/ContainerAndSizedBoxDemo.dart';
 import 'demo/ImageDemo.dart';
 import 'demo/TextFiledDemo.dart';
@@ -18,6 +19,10 @@ var pageRouters = <String, WidgetBuilder>{
   'LayoutDemo': (context) => const LayoutDemoPage(title: "LayoutDemo"),
   'ContainerAndSizedBoxDemo': (context) =>
       const ContainerAndSizedBoxDemo(title: "ContainerAndSizedBoxDemo"),
+  'CenterAlignPositionedExpandedDemo': (context) =>
+      const CenterAlignPositionedExpandedDemo(
+        title: "CenterAlignPositionedExpandedDemo",
+      ),
 };
 
 class MyApp extends StatelessWidget {
